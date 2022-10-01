@@ -36,8 +36,7 @@ inputs:
         parameters:
           name: UnfollowBatchedTask
           cronExpression: "0 0 0 * * MON *"
-          enable: true
+          enable: false
           argument: UnfollowBatched
-  environment:
     variables: # 根据自己的需要修改
-      Ray_BiliBiliCookies__1: 123 # cookie，必填
+      Ray_BiliBiliCookies__1: innersign=0; buvid3=696F898E-CE1D-D669-6A43-99A9C33864A244924infoc; b_nut=1664626244; i-wanna-go-back=-1; b_ut=7; b_lsid=110931079A_1839374C289; _uuid=458910866-B23F-61710-28B10-77EA7779E66946291infoc; buvid4=378F74CB-A959-8674-65F6-C7C113FCD45947444-022100120-8RUqDVYFgen5VdR6eO6hfQ%3D%3D; fingerprint=ce656cffff89fb089eb8f2543e93f2ff; buvid_fp=696F898E-CE1D-D669-6A43-99A9C33864A244924infoc; buvid_fp_plain=undefined; SESSDATA=01b0588f%2C1680178325%2C7b94d%2Aa1; bili_jct=447f44ee0b7679616bcf25040b02d45d; DedeUserID=252092263; DedeUserID__ckMd5=c08d163fa2cd002e; sid=ogv3j80b # cookie，必填
